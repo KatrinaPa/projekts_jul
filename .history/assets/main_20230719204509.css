@@ -1318,6 +1318,7 @@ hr {
 
     .medicin-support {
         top: 4rem;
+        width: 30%;
     }
 
     .transp-support {
@@ -1355,8 +1356,7 @@ hr {
     }
 
     #border-dotted-medicin {
-        top: 12rem;
-        width: 9.5rem;
+        top: 11.7rem;
     }
 
     .support_logo {

@@ -1134,6 +1134,7 @@ hr {
     .support_logo {
         top: 6.5rem;
         left: 83px;
+        gap: 0.5rem;
     }
 
     .support_logo div {
@@ -1318,6 +1319,7 @@ hr {
 
     .medicin-support {
         top: 4rem;
+        width: 30%;
     }
 
     .transp-support {
@@ -1355,18 +1357,7 @@ hr {
     }
 
     #border-dotted-medicin {
-        top: 12rem;
-        width: 9.5rem;
-    }
-
-    .support_logo {
-        top: 5.5rem;
-        left: 64px;
-    }
-
-    .support_logo div {
-        width: 8rem;
-        height: 2.8rem;
+        top: 11.7rem;
     }
 }
 
