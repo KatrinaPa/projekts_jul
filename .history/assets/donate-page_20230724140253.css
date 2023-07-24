@@ -1,0 +1,320 @@
+#donate_wrapper {
+    background-color: #f4f4f4;
+}
+
+.donate_section {
+    font-family: 'Roboto';
+    padding: 0 3rem 0 3rem;
+}
+
+.donate-centred {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.back-toProject {
+    width: 54.5rem;
+    padding: 2rem 0 1rem 0;
+}
+
+.back-toProject a {
+    text-decoration: none;
+    color: #4257A6;
+    font-size: 16px;
+    font-weight: 500;
+    margin-block-start: 0;
+    display: flex;
+}
+
+.back-btn {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.back-btn img {
+    width: 45%;
+    padding-top: 0.1rem;
+}
+
+.donate_page {
+    width: 54.5rem;
+    background-color: #ffffff;
+    color: #1E1F24;
+    margin-bottom: 3rem;
+}
+
+h1 {
+    color: #1E1F24;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 45px;
+    padding: 2.5rem 7rem 0 7rem;
+    width: 60%;
+}
+
+.donation_type {
+    padding: 0 7rem 0 7rem;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 2rem 0 0.5rem 0;
+    font-family: 'Poppins';
+}
+
+.donation_type div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.info-regular {
+    display: flex;
+    gap: 0.6rem;
+}
+
+.info-regular img {
+    width: 18px;
+    height: 18px;
+    margin-block-start: 1.2rem;
+}
+
+.donation_type p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-block-start: 0.7rem;
+}
+
+.donation_type span {
+    color: #4257A6;
+    font-weight: 600;
+}
+
+.checkbox_display div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0.5rem;
+    width: 60%;
+}
+
+#display-no {
+    width: 1rem;
+    margin: 0;
+}
+
+.checkbox_display label {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.one-time,
+.individual {
+    color: #1E1F24;
+    font-size: 14px;
+    width: 11.6rem;
+    height: 2.68rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.legal,
+.regular {
+    color: #1E1F24;
+    font-size: 14px;
+    width: 11.6rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 0 20px 20px 0;
+    border: none;
+    font-weight: 400;
+    margin-block-end: 0;
+    cursor: pointer;
+}
+
+.legal:hover,
+.regular:hover,
+.one-time:hover,
+.individual:hover {
+    background-color: #ffcc00;
+    font-weight: 700;
+}
+
+.enter-donation {
+    background-color: #f4f4f4;
+    color: #615c5c;
+    font-size: 18px;
+    height: 2.5rem;
+    width: 12rem;
+    text-align: center;
+    border: none;
+    font-weight: 700;
+    margin-block-start: 0;
+}
+
+.payment_logo {
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+#visa_logo,
+#google-pay_logo,
+#apple-pay_logo,
+#master-card_logo {
+    cursor: pointer;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    padding: 0 7rem 0 7rem;
+}
+
+.inputs-details {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-details input {
+    border-radius: 5px;
+    padding: 0.7rem 0.7rem;
+    width: 100%;
+    border: solid 1px #1E1F24;
+    font-size: 14px;
+}
+
+.buttonContinue {
+    margin: 3.6rem 0 2.6rem 0;
+    width: 100%;
+    background-color: #4257A6;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+    height: 2.69rem;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.yellow-bottom {
+    height: 0.25rem;
+    background-color: #ffcc00;
+}
+
+@media (min-width: 1280px) {
+
+    .section-content {
+        margin: 0 auto;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+
+    .donate_section {
+        padding: 0 5rem 0 5rem;
+    }
+
+    .back-toProject {
+        width: 100%;
+    }
+
+    .donate_page {
+        width: 100%;
+    }
+
+    h1 {
+        padding: 2.5rem 5rem 0 5rem;
+        width: 70%;
+    }
+
+    .donation_type {
+        padding: 0 5rem 0 5rem;
+    }
+
+    .contact-details {
+        padding: 0 5rem 0 5rem;
+    }
+
+    .inputs-details {
+        gap: 0.5rem;
+    }
+
+    .checkbox_display div {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .donate_section {
+        padding: 0;
+    }
+
+    .back-toProject {
+        width: 90%;
+    }
+
+    h1 {
+        padding: 1.5rem 1.5rem 0 1.5rem;
+        width: 90%;
+        font-size: 26px;
+        line-height: 40px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    .donation_type {
+        padding: 1.5rem 1.5rem 0 1.5rem;
+    }
+
+    .donation_type p {
+        width: 60%;
+    }
+
+    .contact-details {
+        padding: 0 1.5rem 0 1.5rem;
+    }
+
+    .contact-details input {
+        margin-top: 1rem;
+    }
+
+    .one-time,
+    .individual,
+    .legal,
+    .regular {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .inputs-details {
+        margin-bottom: 2rem;
+        flex-direction: column;
+    }
+
+    .placehold_button {
+        padding-right: 2rem;
+    }
+
+    .enter-donation {
+        width: 100%;
+    }
+}
