@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stripe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/main.css" />
+    <link rel="stylesheet" href="./assets/stripe-styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+</head>
+
+<body>
+
+    <main>
+        <div class="panel-2">
+            <section class="section_left">
+                <div class="wrapper_left">
+                    <div class="logo-back"><a href="sakums.html">
+                            <button class="back-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26"
+                                    fill="none">
+                                    <path
+                                        d="M15.2444 20.2912C15.0888 20.2917 14.935 20.2574 14.7944 20.1907C14.6538 20.124 14.53 20.0266 14.4319 19.9058L9.40066 13.6558C9.24745 13.4694 9.1637 13.2356 9.1637 12.9943C9.1637 12.753 9.24745 12.5192 9.40066 12.3328L14.609 6.08285C14.7858 5.87012 15.0399 5.73635 15.3153 5.71095C15.5908 5.68556 15.865 5.77062 16.0777 5.94743C16.2905 6.12424 16.4242 6.37832 16.4496 6.65376C16.475 6.9292 16.39 7.20345 16.2132 7.41618L11.5569 12.9995L16.0569 18.5828C16.1843 18.7357 16.2652 18.9219 16.2901 19.1194C16.315 19.3168 16.2827 19.5173 16.1973 19.697C16.1118 19.8767 15.9766 20.0282 15.8078 20.1335C15.6389 20.2388 15.4434 20.2935 15.2444 20.2912Z"
+                                        fill="#F4F4F4" />
+                                </svg>
+                            </button>
+                            <div>
+                                <img src="assets/images/UM_logo_white.png" alt="UM_logo_white" id="logo-white">
+                            </div>
+                        </a></div>
+                    <div class="donate-amount">
+                        <p>Ziedojums Uzņēmēji Mieram<br>
+                            <span>Neatliekamās palīdzības automašīnas</span>
+                        </p>
+                        <div>
+                            <h2>€</h2>
+                            <h2>50.00</h2>
+                        </div>
+                    </div>
+                    <div class="terms-privacy">
+                        <div>Powered by <img src="assets/images/stripe_wht.png" alt="Stripe" id="stripe_logo"></div>
+                        <div class="centred-divid"></div>
+                        <div class="terms">Terms</div>
+                        <div class="privacy">Privacy</div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="section_right">
+                <div class="wrapper_right">
+                    <button type="submit" class="button-ApplePay"><img src="assets/images/applePay.png" alt="ApplePay"
+                            id="applePay-btn"></button>
+                    <div class="pay-card-wrapper">
+                        <div class="pay-card-line"></div>
+                        <div class="pay-card">
+                            <p>Vai maksāt ar karti</p>
+                        </div>
+                        <div class="pay-card-line"></div>
+                    </div>
+
+                    <div class="donor-details">
+                        <form action="#">
+                            <div class="input-details">
+                                <label for="email">E-pasts</label>
+                                <input type="email" placeholder="E-pasts" id="email" />
+                            </div>
+                            <div class="input-details">
+                                <label for="name-onCard">Vārds uz kartes</label>
+                                <input type="text" placeholder="Vārds, Uzvārds" id="name-onCard" />
+                            </div>
+                            <div class="input-card-details">
+                                <label for="card-nr">Kartes numurs</label>
+                                <input type="tel" placeholder="5555 5567 6678 6789" id="card-nr" />
+                                <div>
+                                    <input type="tel" placeholder="03 / 28" id="valid" />
+                                    <input type="tel" placeholder="567" id="cvc" />
+                                </div>
+                            </div>
+                            <button type="submit" class="button-donate id=" donate-btn">Ziedot</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+
+</body>
+
+</html>

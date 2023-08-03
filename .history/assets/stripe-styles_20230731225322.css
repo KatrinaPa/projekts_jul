@@ -1,0 +1,189 @@
+.panel-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section_left {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 62.69rem;
+    background-color: #4257A6;
+    font-family: Roboto;
+    color: #ffffff;
+}
+
+.wrapper_left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logo-back {
+    margin-top: 12rem;
+}
+
+.logo-back a {
+    display: flex;
+    gap: 0.7rem;
+}
+
+.back-btn {
+    border: 0;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+}
+
+#logo-white {
+    width: 10.625rem;
+}
+
+.donate-amount {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+}
+
+.donate-amount p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 3rem 0 0 0;
+}
+
+.donate-amount p span {
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFCC00;
+}
+
+.donate-amount div {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.donate-amount h2 {
+    font-size: 39px;
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
+.terms-privacy {
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 12rem;
+    width: 16rem;
+    padding-left: 3rem;
+}
+
+.terms-privacy div:first-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.terms-privacy img {
+    width: 33%;
+}
+
+.centred-divid {
+    width: 1px;
+    height: 1.25rem;
+    background-color: #ffffff;
+}
+
+.terms,
+.privacy {
+    cursor: pointer;
+}
+
+
+
+.section_right {
+    width: 50%;
+    background-color: #ffffff;
+    font-family: Roboto;
+}
+
+.wrapper_right {
+    padding: 13rem 7.2rem 0 6.6rem;
+}
+
+.button-ApplePay {
+    margin-top: 1rem;
+    width: 100%;
+    height: 2.69rem;
+    max-width: 26.25rem;
+    background-color: #000;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-ApplePay img {
+    width: 15%;
+}
+
+.pay-card {
+    width: 100%;
+    max-width: 26.25rem;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #C3C9D1;
+}
+
+.section_right input {
+    width: auto;
+    max-width: 25.75rem;
+    height: 2.3rem;
+    border-radius: 8px;
+    border: solid 1px rgba(60, 66, 87, 0.12);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.07px;
+}
+
+.section_right ::placeholder {
+    padding: 0 1.25rem;
+    color: #000;
+}
+
+.section_right label {
+    color: #697386;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.07px;
+}
+
+form div:first-child {
+    margin-bottom: 3rem;
+}
+
+.input-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.button-donate {
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 26.25rem;
+    background-color: #4257A6;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+    height: 2.69rem;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}

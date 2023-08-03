@@ -1,0 +1,36 @@
+.panel-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section_left {
+    width: 50%;
+    background-color: #4257A6;
+    font-family: Roboto;
+}
+
+.section_right {
+    width: 50%;
+    background-color: #ffffff;
+}
+
+.logo-back {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-back a {
+    display: flex;
+}
+
+.back-btn {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.back-btn img {
+    width: 45%;
+    padding-top: 0.1rem;
+}

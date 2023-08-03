@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stripe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/main.css" />
+    <link rel="stylesheet" href="./assets/stripe-styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+</head>
+
+<body>
+
+    <main>
+        <div class="panel-2">
+            <section class="section_left">
+                <div class="wrapper_left">
+                    <div class="logo-back"><a href="sakums.html">
+                            <button class="back-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26"
+                                    fill="none">
+                                    <path
+                                        d="M15.2444 20.2912C15.0888 20.2917 14.935 20.2574 14.7944 20.1907C14.6538 20.124 14.53 20.0266 14.4319 19.9058L9.40066 13.6558C9.24745 13.4694 9.1637 13.2356 9.1637 12.9943C9.1637 12.753 9.24745 12.5192 9.40066 12.3328L14.609 6.08285C14.7858 5.87012 15.0399 5.73635 15.3153 5.71095C15.5908 5.68556 15.865 5.77062 16.0777 5.94743C16.2905 6.12424 16.4242 6.37832 16.4496 6.65376C16.475 6.9292 16.39 7.20345 16.2132 7.41618L11.5569 12.9995L16.0569 18.5828C16.1843 18.7357 16.2652 18.9219 16.2901 19.1194C16.315 19.3168 16.2827 19.5173 16.1973 19.697C16.1118 19.8767 15.9766 20.0282 15.8078 20.1335C15.6389 20.2388 15.4434 20.2935 15.2444 20.2912Z"
+                                        fill="#F4F4F4" />
+                                </svg>
+                            </button>
+                            <div>
+                                <img src="assets/images/UM_logo_white.png" alt="UM_logo_white" id="logo-white">
+                            </div>
+                        </a></div>
+                    <div class="donate-amount">
+                        <p>Ziedojums Uzņēmēji Mieram<br>
+                            <span>Neatliekamās palīdzības automašīnas</span>
+                        </p>
+                        <div>
+                            <h2>€</h2>
+                            <h2>50.00</h2>
+                        </div>
+                    </div>
+                    <div class="terms-privacy">
+                        <div>Powered by <svg xmlns="http://www.w3.org/2000/svg" width="35" height="15"
+                                viewBox="0 0 35 15" fill="none">
+                                <g clip-path="url(#clip0_2158_26334)">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M34.5448 7.47808C34.5448 5.08557 33.3722 3.19775 31.1309 3.19775C28.8801 3.19775 27.5184 5.08557 27.5184 7.45939C27.5184 10.2724 29.126 11.6929 31.4335 11.6929C32.5589 11.6929 33.41 11.4406 34.053 11.0855V9.21632C33.41 9.53412 32.6723 9.73033 31.7361 9.73033C30.8188 9.73033 30.0055 9.4126 29.9015 8.30982H34.5259C34.5259 8.1883 34.5448 7.70236 34.5448 7.47808ZM29.8731 6.59021C29.8731 5.53416 30.5256 5.09491 31.1214 5.09491C31.6982 5.09491 32.313 5.53416 32.313 6.59021H29.8731Z"
+                                        fill="#F4F4F4" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M23.8681 3.19775C22.9413 3.19775 22.3455 3.62765 22.0146 3.92671L21.8916 3.34728H19.8111V14.2443L22.1753 13.749L22.1848 11.1041C22.5252 11.3471 23.0264 11.6929 23.8587 11.6929C25.5514 11.6929 27.0929 10.3472 27.0929 7.38463C27.0834 4.67436 25.523 3.19775 23.8681 3.19775ZM23.3007 9.63688C22.7427 9.63688 22.4117 9.4406 22.1848 9.19763L22.1753 5.73042C22.4212 5.4594 22.7617 5.27248 23.3007 5.27248C24.1613 5.27248 24.757 6.22574 24.757 7.45001C24.757 8.70231 24.1707 9.63688 23.3007 9.63688Z"
+                                        fill="#F4F4F4" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M16.5577 2.64645L18.9314 2.14179V0.244629L16.5577 0.739947V2.64645Z"
+                                        fill="#F4F4F4" />
+                                    <path d="M18.9314 3.35645H16.5577V11.5338H18.9314V3.35645Z" fill="#F4F4F4" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M14.0139 4.04819L13.8626 3.35661H11.8199V11.5341H14.1841V5.99208C14.742 5.27246 15.6877 5.40331 15.9809 5.50611V3.35661C15.6782 3.24446 14.5718 3.03886 14.0139 4.04819Z"
+                                        fill="#F4F4F4" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M9.28554 1.32886L6.97802 1.81483L6.96857 9.30065C6.96857 10.6838 8.01826 11.7025 9.41793 11.7025C10.1933 11.7025 10.7608 11.5623 11.0729 11.3941V9.49693C10.7703 9.61845 9.27605 10.0483 9.27605 8.66519V5.34748H11.0729V3.35686H9.27605L9.28554 1.32886Z"
+                                        fill="#F4F4F4" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M2.89259 5.73042C2.89259 5.36594 3.19522 5.22576 3.69642 5.22576C4.41515 5.22576 5.32301 5.44071 6.04174 5.82387V3.62765C5.25681 3.31925 4.48135 3.19775 3.69642 3.19775C1.77668 3.19775 0.5 4.18839 0.5 5.84257C0.5 8.42196 4.09362 8.01078 4.09362 9.12287C4.09362 9.55281 3.71534 9.69295 3.18576 9.69295C2.40083 9.69295 1.39841 9.37522 0.604026 8.94535V11.1696C1.48351 11.5434 2.37247 11.7023 3.18576 11.7023C5.15279 11.7023 6.50512 10.7397 6.50512 9.0668C6.49567 6.28181 2.89259 6.77713 2.89259 5.73042Z"
+                                        fill="#F4F4F4" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_2158_26334">
+                                        <rect width="34" height="14" fill="white" transform="translate(0.5 0.244629)" />
+                                    </clipPath>
+                                </defs>
+                            </svg></div>
+                        <div class="centred-divid"></div>
+                        <div class="terms">Terms</div>
+                        <div class="privacy">Privacy</div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="section_right">
+                <div class="wrapper_right">
+                    <button type="submit" class="button-ApplePay"><img src="assets/images/applePay.png" alt="ApplePay"
+                            id="applePay-btn"></button>
+                    <div class="pay-card-wrapper">
+                        <div class="pay-card-line"></div>
+                        <div class="pay-card">
+                            <p>Vai maksāt ar karti</p>
+                        </div>
+                        <div class="pay-card-line"></div>
+                    </div>
+
+                    <div class="donor-details">
+                        <form action="#">
+                            <div class="input-details">
+                                <label for="email">E-pasts</label>
+                                <input type="email" placeholder="E-pasts" id="email" />
+                            </div>
+                            <div class="input-details">
+                                <label for="name-onCard">Vārds uz kartes</label>
+                                <input type="text" placeholder="Vārds, Uzvārds" id="name-onCard" />
+                            </div>
+
+                            <div class="input-card-details">
+                                <label for="card-nr">Kartes numurs</label>
+                                <input type="tel" placeholder="5555 5567 6678 6789" id="card-nr"
+                                    class="input-icon-cards" />
+                                <div>
+                                    <input type="tel" placeholder="03 / 28" id="valid" />
+                                    <input type="tel" placeholder="567" id="cvc" class="input-icon-cvc" />
+                                </div>
+                            </div>
+
+                            <button type="submit" class="button-donate id=" donate-btn">Ziedot</button>
+                            <div class="confirm">
+                                <p>By confirming your payment, you allow Stripe to charge your card for this payment in
+                                    accordance with their terms.</p>
+                            </div>
+                            <div class="terms-privacy-mob">
+                                <div>Powered by <svg xmlns="http://www.w3.org/2000/svg" width="35" height="14"
+                                        viewBox="0 0 35 14" fill="none">
+                                        <g clip-path="url(#clip0_2570_5822)">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M34.3792 7.23345C34.3792 4.84094 33.2066 2.95312 30.9653 2.95312C28.7146 2.95312 27.3528 4.84094 27.3528 7.21476C27.3528 10.0278 28.9604 11.4483 31.2679 11.4483C32.3933 11.4483 33.2444 11.1959 33.8874 10.8408V8.97169C33.2444 9.28949 32.5068 9.4857 31.5706 9.4857C30.6532 9.4857 29.8399 9.16797 29.7359 8.06519H34.3603C34.3603 7.94367 34.3792 7.45773 34.3792 7.23345ZM29.7075 6.34558C29.7075 5.28953 30.36 4.85029 30.9558 4.85029C31.5327 4.85029 32.1474 5.28953 32.1474 6.34558H29.7075Z"
+                                                fill="#615C5C" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M23.7025 2.95312C22.7757 2.95312 22.1799 3.38302 21.849 3.68208L21.726 3.10265H19.6455V13.9997L22.0097 13.5043L22.0192 10.8595C22.3596 11.1025 22.8608 11.4483 23.6931 11.4483C25.3858 11.4483 26.9273 10.1025 26.9273 7.14C26.9178 4.42973 25.3574 2.95312 23.7025 2.95312ZM23.1351 9.39225C22.5772 9.39225 22.2462 9.19597 22.0192 8.953L22.0097 5.48579C22.2556 5.21477 22.5961 5.02786 23.1351 5.02786C23.9957 5.02786 24.5914 5.98111 24.5914 7.20538C24.5914 8.45768 24.0052 9.39225 23.1351 9.39225Z"
+                                                fill="#615C5C" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M16.3921 2.40183L18.7658 1.89716V0L16.3921 0.495319V2.40183Z"
+                                                fill="#615C5C" />
+                                            <path d="M18.7658 3.11169H16.3921V11.2891H18.7658V3.11169Z"
+                                                fill="#615C5C" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M13.8483 3.80356L13.697 3.11198H11.6543V11.2894H14.0185V5.74745C14.5765 5.02783 15.5222 5.15868 15.8153 5.26148V3.11198C15.5127 2.99984 14.4062 2.79423 13.8483 3.80356Z"
+                                                fill="#615C5C" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M9.11995 1.08423L6.81243 1.5702L6.80298 9.05602C6.80298 10.4392 7.85267 11.4579 9.25234 11.4579C10.0278 11.4579 10.5952 11.3177 10.9073 11.1495V9.2523C10.6047 9.37382 9.11046 9.80369 9.11046 8.42056V5.10285H10.9073V3.11223H9.11046L9.11995 1.08423Z"
+                                                fill="#615C5C" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M2.72707 5.4858C2.72707 5.12131 3.02969 4.98113 3.5309 4.98113C4.24962 4.98113 5.15749 5.19608 5.87621 5.57924V3.38302C5.09128 3.07462 4.31582 2.95312 3.5309 2.95312C1.61115 2.95312 0.334473 3.94376 0.334473 5.59794C0.334473 8.17733 3.92809 7.76615 3.92809 8.87824C3.92809 9.30818 3.54982 9.44832 3.02023 9.44832C2.23531 9.44832 1.23288 9.13059 0.438498 8.70072V10.925C1.31799 11.2988 2.20694 11.4577 3.02023 11.4577C4.98726 11.4577 6.3396 10.495 6.3396 8.82217C6.33014 6.03718 2.72707 6.53251 2.72707 5.4858Z"
+                                                fill="#615C5C" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2570_5822">
+                                                <rect width="34" height="14" fill="white"
+                                                    transform="translate(0.334473)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <div class="terms">Terms</div>
+                                    <div class="privacy">Privacy</div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+
+</body>
+
+</html>

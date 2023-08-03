@@ -1,0 +1,12 @@
+.panel-2 {
+    font-family: 'Roboto'
+        display: flex;
+}
+
+.section_left {
+    background-color: #4257A6;
+}
+
+.section_right {
+    background-color: #ffffff;
+}

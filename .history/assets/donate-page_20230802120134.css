@@ -1,0 +1,367 @@
+#donate_wrapper {
+    background-color: #f4f4f4;
+}
+
+.donate_section {
+    font-family: 'Roboto';
+    padding: 0 3rem 0 3rem;
+}
+
+.donate-centred {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.back-toProject {
+    width: 54.5rem;
+    padding: 2rem 0 1rem 0;
+}
+
+.back-toProject a {
+    text-decoration: none;
+    color: #4257A6;
+    font-size: 16px;
+    font-weight: 500;
+    margin-block-start: 0;
+    display: flex;
+}
+
+.back-btn {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.back-btn img {
+    width: 45%;
+    padding-top: 0.1rem;
+}
+
+.donate_page {
+    width: 54.5rem;
+    background-color: #ffffff;
+    color: #1E1F24;
+    margin-bottom: 3rem;
+}
+
+h1 {
+    color: #1E1F24;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 45px;
+    padding: 2.5rem 7rem 0 7rem;
+}
+
+.donation_type {
+    padding: 0 7rem 0 7rem;
+}
+
+.donation_type svg {
+    padding: 0 0.5rem;
+}
+
+#done {
+    color: #1E1F24;
+    padding-right: 0.7rem;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 2rem 0 0.5rem 0;
+    font-family: 'Poppins';
+}
+
+.donation_type div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 2.36rem;
+}
+
+.info-regular {
+    margin-bottom: 3rem;
+    gap: 0.6rem;
+}
+
+.info-regular img {
+    width: 18px;
+    height: 18px;
+    margin-block-start: 1.2rem;
+}
+
+.donation_type p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-block-start: 0.7rem;
+    width: 75%;
+}
+
+.donation_type span {
+    color: #4257A6;
+    font-weight: 600;
+}
+
+.checkbox_display div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0.5rem;
+    width: 60%;
+}
+
+#display-no {
+    width: 1.1rem;
+    height: 1.1rem;
+    margin: 0;
+}
+
+.checkbox_display label {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.one-time,
+.individual {
+    color: #313239;
+    font-size: 14px;
+    width: 11.8rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.legal,
+.regular {
+    color: #313239;
+    font-size: 14px;
+    width: 11.6rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 0 20px 20px 0;
+    border: none;
+    font-weight: 400;
+    margin-block-end: 0;
+    cursor: pointer;
+}
+
+.legal:hover,
+.regular:hover,
+.one-time:hover,
+.individual:hover {
+    background-color: #ffcc00;
+    font-weight: 700;
+}
+
+.enter-donation {
+    background-color: #f4f4f4;
+    color: #615c5c;
+    font-size: 18px;
+    height: 2.5rem;
+    width: 12rem;
+    text-align: center;
+    border: none;
+    font-weight: 700;
+    margin-block-start: 0;
+}
+
+.payment_logo {
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+#visa_logo,
+#google-pay_logo,
+#apple-pay_logo,
+#master-card_logo {
+    cursor: pointer;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    padding: 0 7rem 0 7rem;
+}
+
+.inputs-details {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.inputs-details ::placeholder {
+    color: #C4C5C5;
+    padding-left: 1.5rem;
+}
+
+.input-icon-email {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='25' viewBox='0 0 24 25' fill='none'%3E%3Cpath d='M19 4.79175H4.99999C4.20434 4.79175 3.44128 5.10782 2.87867 5.67043C2.31606 6.23304 1.99999 6.9961 1.99999 7.79175V17.7917C1.99999 18.5874 2.31606 19.3505 2.87867 19.9131C3.44128 20.4757 4.20434 20.7917 4.99999 20.7917H19C19.7956 20.7917 20.5587 20.4757 21.1213 19.9131C21.6839 19.3505 22 18.5874 22 17.7917V7.79175C22 6.9961 21.6839 6.23304 21.1213 5.67043C20.5587 5.10782 19.7956 4.79175 19 4.79175ZM18.33 6.79175L12 11.5417L5.66999 6.79175H18.33ZM19 18.7917H4.99999C4.73478 18.7917 4.48042 18.6864 4.29289 18.4989C4.10535 18.3113 3.99999 18.057 3.99999 17.7917V8.04175L11.4 13.5917C11.5731 13.7216 11.7836 13.7917 12 13.7917C12.2164 13.7917 12.4269 13.7216 12.6 13.5917L20 8.04175V17.7917C20 18.057 19.8946 18.3113 19.7071 18.4989C19.5196 18.6864 19.2652 18.7917 19 18.7917Z' fill='%23C4C5C5'/%3E%3C/svg%3E");
+    background-position: 0.5rem center;
+}
+
+.inputs-details div:nth-child(2) ::placeholder {
+    padding-left: 5rem;
+}
+
+.contact-details input {
+    border-radius: 5px;
+    padding: 0.7rem 0.7rem;
+    width: 100%;
+    border: solid 1px #1E1F24;
+    font-size: 14px;
+    background-repeat: no-repeat;
+}
+
+.buttonContinue {
+    margin: 3.6rem 0 2.6rem 0;
+    width: 100%;
+    background-color: #4257A6;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+    height: 2.69rem;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.yellow-bottom {
+    height: 0.25rem;
+    background-color: #ffcc00;
+}
+
+@media (min-width: 1280px) {
+
+    .section-content {
+        margin: 0 auto;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+
+    .donate_section {
+        padding: 0 5rem 0 5rem;
+    }
+
+    .back-toProject {
+        width: 100%;
+    }
+
+    .donate_page {
+        width: 100%;
+    }
+
+    h1 {
+        padding: 2.5rem 6rem 0 6rem;
+    }
+
+    .donation_type {
+        padding: 0 6rem 0 6rem;
+    }
+
+    .donation_type p {
+        width: 100%;
+    }
+
+    .one-time,
+    .individual {
+        width: 12.6rem;
+    }
+
+    .donation_type svg {
+        padding: 0 0.3rem;
+    }
+
+    .one-time,
+    .individual,
+    .legal,
+    .regular {
+        font-size: 13px;
+    }
+
+    .info-regular {
+        margin-bottom: 5rem;
+    }
+
+    .contact-details {
+        padding: 0 6rem 0 6rem;
+    }
+
+    .contact-details input {
+        margin-top: 1rem;
+        width: auto;
+    }
+
+    .inputs-details {
+        gap: 0.5rem;
+        flex-direction: column;
+    }
+
+    .checkbox_display div {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .donate_section {
+        padding: 0;
+    }
+
+    .back-toProject {
+        width: 90%;
+    }
+
+    h1 {
+        padding: 1.5rem 1.5rem 0 1.5rem;
+        width: 90%;
+        font-size: 26px;
+        line-height: 40px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    .donation_type {
+        padding: 1.5rem 1.5rem 0 1.5rem;
+    }
+
+    .contact-details {
+        padding: 0 1.5rem 0 1.5rem;
+    }
+
+    .one-time,
+    .individual,
+    .legal,
+    .regular {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .inputs-details {
+        margin-bottom: 2rem;
+        flex-direction: column;
+    }
+
+    .checkbox_display label {
+        font-size: 12px;
+    }
+
+    .enter-donation {
+        width: 100%;
+    }
+}

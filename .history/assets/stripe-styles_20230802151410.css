@@ -1,0 +1,289 @@
+.panel-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section_left {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 62.69rem;
+    background-color: #4257A6;
+    font-family: Roboto;
+    color: #ffffff;
+}
+
+.wrapper_left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logo-back {
+    margin-top: 12rem;
+}
+
+.logo-back a {
+    display: flex;
+    gap: 0.7rem;
+}
+
+.back-btn {
+    border: 0;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+}
+
+#logo-white {
+    width: 10.625rem;
+}
+
+.donate-amount {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+}
+
+.donate-amount p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 3rem 3rem 0 0;
+}
+
+.donate-amount p span {
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFCC00;
+}
+
+.donate-amount div {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.donate-amount h2 {
+    font-size: 39px;
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
+.terms-privacy {
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 17rem;
+    width: 16rem;
+    padding-left: 3rem;
+}
+
+.terms-privacy div:first-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.terms-privacy img {
+    width: 33%;
+}
+
+.centred-divid {
+    width: 1px;
+    height: 1.25rem;
+    background-color: #ffffff;
+}
+
+.terms,
+.privacy {
+    padding-top: 0.2rem;
+    cursor: pointer;
+}
+
+
+
+.section_right {
+    width: 50%;
+    background-color: #ffffff;
+    font-family: Roboto;
+}
+
+.wrapper_right {
+    padding: 13rem 7.2rem 0 6.6rem;
+}
+
+.button-ApplePay {
+    margin-top: 1rem;
+    width: 100%;
+    height: 2.69rem;
+    max-width: 26.25rem;
+    background-color: #000;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-ApplePay img {
+    width: 15%;
+}
+
+.pay-card-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0.5rem 1.5rem 0.5rem;
+    max-width: 25.2rem;
+}
+
+.pay-card {
+    width: 100%;
+    max-width: 26.25rem;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #C3C9D1;
+}
+
+.pay-card-line {
+    border-top: 1px solid #C3C9D1;
+    width: 70%;
+}
+
+.section_right input {
+    width: auto;
+    max-width: 25.8rem;
+    height: 2.3rem;
+    border: solid 1px rgba(60, 66, 87, 0.12);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.07px;
+}
+
+.section_right ::placeholder {
+    padding: 0 1.25rem;
+    color: #000;
+}
+
+.section_right label {
+    color: #697386;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.07px;
+}
+
+form div:first-child {
+    margin-bottom: 3rem;
+}
+
+.input-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.input-card-details {
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-card-details label {
+    margin-bottom: 0.5rem;
+}
+
+.input-card-details div {
+    display: flex;
+    flex-direction: row;
+}
+
+.input-card-details div input {
+    width: 50%;
+    max-width: 12.7rem;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.input-details input {
+    margin: 0;
+}
+
+#card-nr {
+    border-radius: 8px 8px 0 0;
+}
+
+#valid {
+    border-radius: 0 0 0 8px;
+}
+
+#cvc {
+    border-radius: 0 0 8px 0;
+}
+
+.input-icon-cards {
+    background-image: url("cards.png");
+    background-position: right center;
+}
+
+.input-icon-cvc {
+    background-image: url("data:image/svg+xml,%3Csvg width='25' height='18' viewBox='0 0 25 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_2158_26370)'%3E%3Cpath opacity='0.2' d='M16.5086 2.3584H2.04983C1.37391 2.3584 0.580444 3.13717 0.580444 3.82779V14.8482C0.580444 15.5388 1.37391 16.3176 2.04983 16.3176H20.4172C21.0931 16.3176 21.8866 15.5388 21.8866 14.8482V9.31595C21.2676 9.8727 20.5033 10.2421 19.6825 10.3813V10.44C19.6825 10.9249 19.418 11.1747 18.9478 11.1747H2.78453C2.31432 11.1747 2.04983 10.9249 2.04983 10.44V9.70534C2.04983 9.22044 2.31432 8.97064 2.78453 8.97064H15.6637C15.2396 8.50065 14.9221 7.94455 14.7329 7.34042C14.5437 6.7363 14.4873 6.09842 14.5675 5.47047C14.6477 4.84252 14.8627 4.23932 15.1978 3.70218C15.5328 3.16505 15.9799 2.70665 16.5086 2.3584V2.3584Z' fill='%23697386'/%3E%3Cpath d='M14.7894 4.5625H0.580444V6.76658H14.5984C14.475 6.02754 14.5407 5.26928 14.7894 4.5625Z' fill='%23697386'/%3E%3C/g%3E%3Cpath d='M19.3929 11.0767C18.0321 11.0767 16.7271 10.5349 15.7649 9.57042C14.8028 8.60595 14.2622 7.29784 14.2622 5.93387C14.2622 4.5699 14.8028 3.2618 15.7649 2.29732C16.7271 1.33285 18.0321 0.791016 19.3929 0.791016C20.7536 0.791016 22.0586 1.33285 23.0208 2.29732C23.983 3.2618 24.5235 4.5699 24.5235 5.93387C24.5235 7.29784 23.983 8.60595 23.0208 9.57042C22.0586 10.5349 20.7536 11.0767 19.3929 11.0767ZM17.3553 3.80326H16.7762L15.3616 4.52326V5.25795L16.4831 4.6702V8.06448H17.3626V3.80326H17.3553ZM19.0411 4.39102C19.4588 4.39102 19.752 4.62612 19.752 4.96408C19.752 5.33142 19.4075 5.58857 18.9091 5.58857H18.6892V6.21306H18.9531C19.4808 6.21306 19.84 6.47755 19.84 6.85959C19.84 7.22693 19.4882 7.47673 18.9898 7.47673C18.6233 7.47673 18.2568 7.35918 17.8757 7.13142V7.86612C18.2861 8.04244 18.6966 8.13795 19.0997 8.13795C20.0599 8.13795 20.7195 7.64571 20.7195 6.93306C20.7195 6.43346 20.4117 6.02938 19.8986 5.86775C20.3384 5.72081 20.6242 5.33142 20.6242 4.89061C20.6242 4.2 20.0159 3.72979 19.1363 3.72979C18.7399 3.7342 18.3484 3.81918 17.9856 3.97959V4.69959C18.3374 4.50122 18.6966 4.39102 19.0411 4.39102ZM22.2074 5.99265C22.7425 5.99265 23.1163 6.30857 23.1163 6.72C23.1163 7.15346 22.7425 7.45469 22.2074 7.45469C21.8849 7.45469 21.5478 7.35183 21.2033 7.13877V7.89551C21.5624 8.05714 21.9289 8.13795 22.288 8.13795C22.4786 8.13795 22.6545 8.10857 22.8231 8.06448C23.2042 7.43999 23.4241 6.72 23.4241 5.94857L23.4095 5.64C23.1369 5.47831 22.8245 5.39683 22.5079 5.40489C22.376 5.40489 22.2367 5.41224 22.0901 5.43428V4.47918H23.1456C23.0541 4.24402 22.9412 4.01776 22.8084 3.80326H21.3279V6.11755C21.6211 6.04408 21.9142 5.99265 22.2074 5.99265Z' fill='%23697386'/%3E%3Cdefs%3E%3CclipPath id='clip0_2158_26370'%3E%3Crect width='23.5102' height='15.4286' fill='white' transform='translate(0.580444 2.3584)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+    background-position: right center;
+}
+
+.donor-details input {
+    background-repeat: no-repeat;
+}
+
+.button-donate {
+    margin-top: 2.5rem;
+    width: 100%;
+    max-width: 26.25rem;
+    background-color: #4257A6;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+    height: 2.69rem;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+@media (min-width: 1370px) {
+    .wrapper_right {
+        padding: 13rem 10.5rem 0 6.6rem;
+    }
+}
+
+@media (min-width: 1340px) {
+    .wrapper_right {
+        padding: 13rem 9.5rem 0 6.6rem;
+    }
+}
+
+@media (min-width: 1300px) {
+    .wrapper_right {
+        padding: 13rem 8.5rem 0 6.6rem;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .panel-2 {
+        max-width: 700px;
+    }
+
+    .wrapper_right {
+        padding: 13rem 3.6rem 0 3.2rem;
+    }
+
+    .pay-card-line {
+        width: 38%;
+    }
+
+    .terms-privacy {
+        margin-top: 15.6rem;
+    }
+}
