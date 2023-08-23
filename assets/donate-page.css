@@ -214,8 +214,8 @@ h4 {
     background-position: 0.7rem center;
 }
 
-.inputs-details div:nth-child(2) ::placeholder {
-    padding-left: 2rem;
+#input-email {
+    padding-left: 2.7rem;
 }
 
 .contact-details input {
@@ -231,15 +231,19 @@ h4 {
     margin: 3.6rem 0 2.6rem 0;
     width: 100%;
     background-color: #4257A6;
-    color: #ffffff;
     font-size: 25px;
     font-weight: 500;
     height: 2.69rem;
-    text-decoration: none;
     border-radius: 5px;
     border: none;
-    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.buttonContinue a {
+    color: #ffffff;
+    text-decoration: none;}
 
 .yellow-bottom {
     height: 0.25rem;
