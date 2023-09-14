@@ -1,0 +1,156 @@
+main {
+    background-color: #fff;
+}
+
+.panel-login {
+    display: flex;
+    background: linear-gradient(121deg, #f4f4f4 56%, transparent 0);
+    align-items: center;
+    justify-content: center;
+    padding-right: 14rem;
+}
+
+.left_text {
+    display: flex;
+    justify-content: center;
+    height: 832px;
+    font-family: Roboto;
+    color: #ffffff;
+}
+
+.text_quote {
+    margin: auto;
+    padding-top: 10rem;
+}
+
+.text_quote h2 {
+    color: #97C1EA;
+    text-align: right;
+    font-size: 30px;
+    font-weight: 500;
+    max-width: 25rem;
+    padding: 0 3.2rem 0 7.5rem;
+}
+
+.login_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 620px;
+    background-color: #fff;
+    font-family: Roboto;
+    border-radius: 20px;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.16), 0px 1px 1px 0px rgba(0, 0, 0, 0.08);
+}
+
+#logo {
+    padding: 65px 0 68px 0;
+}
+
+.user-details {
+    width: 400px;
+}
+
+.login_form input {
+    height: 40px;
+    border: solid 1px #4257A6;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0;
+}
+
+.login_form ::placeholder {
+    padding: 0 1rem;
+    color: #000;
+}
+
+.login_form label {
+    color: #4257A6;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 1rem;
+}
+
+.input-details {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+}
+
+.input-icon-visible {
+    background-image: url(images/eye-slash.png);
+    background-position: right center;
+    background-size: 10%;
+}
+
+.user-details input {
+    background-repeat: no-repeat;
+}
+
+.button-signin {
+    margin-top: 2rem;
+    width: 100%;
+    height: 43px;
+    background-color: #4257A6;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.forgot {
+    color: #717171;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.forgot p {
+    margin: 7px 0 0 0;
+}
+
+@media screen and (max-width: 1279.9px) {
+
+    .text_quote h2 {
+        font-size: 25px;
+        max-width: 21rem;
+        padding: 0 2.2rem 0 5.5rem;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .text_quote h2 {
+        max-width: 14rem;
+        padding: 0 2.2rem 0 4.5rem;
+    }
+}
+
+
+@media screen and (max-width: 999px) {
+
+    .panel-login {
+        padding-right: 0;
+    }
+
+    .text_quote h2 {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .login_form {
+        width: 320px;
+    }
+
+    .user-details {
+        width: 280px;
+    }
+
+}

@@ -23,10 +23,25 @@
         <header class="header">
             <div class="header-content">
                 <nav class="navbar">
-                    <a href="sakums.html" id="project-nav-home"><img src="assets/images/UM_logo.png"
+                    <div>
+                        <a href="sakums.html" id="project-nav-home"><img src="assets/images/UM_logo.png"
                             alt="uznemejiMieram" id="logo"></a>
-                    <a href="sakums.html" id="project-nav-home-mob"><img src="assets/images/UM_simbols.png"
+                        <a href="sakums.html" id="project-nav-home-mob"><img src="assets/images/UM_simbols.png"
                             alt="uznemejiMieram" id="logo-mob"></a>
+                    </div>
+                    <ul class="nav-menu">
+                        <li class="nav-item"><a href="#" class="nav-link">Sākums</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Mūsu partneri</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Paveiktie darbi</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Par mums</a></li>
+                    </ul>
+                    <div class="language">
+                        <a href="#">LV</a>
+                        <div class="divider"></div>
+                        <a href="#">ENG</a>
+                        <div class="divider"></div>
+                        <a href="#">UKR</a>
+                    </div>
                 </nav>
             </div>
         </header>
@@ -35,17 +50,19 @@
                 <div class="carousel">
                     <ul class="carousel_track">
                         <li class="carousel_slide">
-                            <img class="carousel_img-support" src="assets/images/img_36.png"
+                            <img class="carousel_img-support" src="assets/images/img_support_landing.png"
                                 alt="Palīdzi Ukrainas tautai">
+                                <img class="carousel_img-support_mob" src="assets/images/img_support_landing_mob.png"
+                                alt="Palīdzi Ukrainas tautai">    
                             <div class="donate">
                                 <div class="h1_p_wrapper">
                                     <h1>Atbalsti <br> Ukrainas tautu <br> cīņā par brīvību!</h1>
-
+                                    <p class="support-p">Lai efektīvāk spētu aizsargāt Ukrainas tautu, nepieciešami Droni. Neatkarīgi no ziedojuma apmēra, tas ir būtisks! #BezTevisNavUzvaras</p>
                                     <div class="thMeter_raised">
                                         <p>Saziedoti</p>
                                         <div class="thMeter-wrapper">
                                             <button id="thMeter-support"></button>
-                                            <span class="support-span">6 857 €</span>
+                                            <span class="support-span">8 857 EUR</span>
                                         </div>
                                         <p> no 10 000 EUR</p>
                                     </div>
@@ -147,20 +164,12 @@
                 <div class="section-content-partners">
                     <h1>Ziedotāji</h1>
                     <div class="partneri">
-                        <div class="fist-line_logo">
                             <img src="assets/images/Lokalise_logo.png" alt="lokalise" id="lokalise_logo">
                             <img src="assets/images/Madara_logo.png" alt="Madara" id="madara_logo">
                             <img src="assets/images/draugiem_logo.png" alt="draugiem" id="draugiem_logo">
-                        </div>
-                        <div class="second-line_logo">
                             <img src="assets/images/Tilde_logo.png" alt="Tilde" id="tilde_logo">
                             <img src="assets/images/RTG_logo.png" alt="RTG" id="rtg_logo">
-                            <img src="assets/images/gaso_logo.png" alt="GASO" id="gaso_logo">
-                        </div>
-                        <div class="third-line_logo">
-                            <img src="assets/images/Twino_logo.png" alt="Twino" id="twino_logo">
                             <img src="assets/images/DPD_logo.png" alt="dpd" id="dpd_logo">
-                        </div>
                     </div>
                     <div class="vairak"><a href="x">
                             <div>
@@ -179,27 +188,77 @@
                     <h1>Biežāk uzdotie jautājumi</h1>
                     <div class="questions-all">
                         <div>
-                            <h6>Vai es varu ziedot kā privātpersona?</h6>
+                            <div class="questions-all-more"><button>
+                                <div>
+                                    <h6>Vai es varu ziedot kā privātpersona?</h6>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="13" viewBox="0 0 29 15" fill="none">
+                                    <path d="M0.0037384 2.27128C0.00279427 1.78799 0.170984 1.31962 0.479111 0.94749C0.65262 0.738045 0.865717 0.564914 1.10619 0.438013C1.34666 0.311111 1.60978 0.232933 1.88049 0.207955C2.1512 0.182977 2.42417 0.21169 2.68377 0.292451C2.94338 0.373211 3.18451 0.50443 3.39336 0.678595L14.4717 9.94511L25.5706 1.00954C25.782 0.837728 26.0253 0.709421 26.2864 0.631996C26.5475 0.554572 26.8214 0.529557 27.0922 0.558389C27.363 0.587221 27.6255 0.66933 27.8645 0.8C28.1035 0.93067 28.3143 1.10732 28.4849 1.31981C28.673 1.53382 28.8149 1.78444 28.9017 2.05594C28.9885 2.32745 29.0183 2.61398 28.9892 2.89754C28.9601 3.18111 28.8727 3.45559 28.7326 3.70377C28.5924 3.95194 28.4025 4.16845 28.1748 4.3397L15.7738 14.3302C15.4039 14.6344 14.9401 14.8007 14.4613 14.8007C13.9826 14.8007 13.5187 14.6344 13.1489 14.3302L0.747803 3.98807C0.497679 3.78057 0.299957 3.51698 0.170677 3.2187C0.041399 2.92041 -0.0157948 2.59583 0.0037384 2.27128Z" fill="#4257A6"/>
+                                    </svg></button>
+                                </div>
+                            </div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit fuga maxime odit, dicta sequi doloremque, sunt nostrum tempora numquam commodi adipisci inventore consequatur officiis perferendis suscipit accusantium, dolorem omnis odio.</p>
                         </div>
+                        
                         <div>
-                            <h6>Kā vēl es varu noziedot?</h6>
+                            <div class="questions-all-more"><button>
+                                <div>
+                                    <h6>Kā vēl es varu noziedot?</h6>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="13" viewBox="0 0 29 15" fill="none">
+                                    <path d="M0.0037384 2.27128C0.00279427 1.78799 0.170984 1.31962 0.479111 0.94749C0.65262 0.738045 0.865717 0.564914 1.10619 0.438013C1.34666 0.311111 1.60978 0.232933 1.88049 0.207955C2.1512 0.182977 2.42417 0.21169 2.68377 0.292451C2.94338 0.373211 3.18451 0.50443 3.39336 0.678595L14.4717 9.94511L25.5706 1.00954C25.782 0.837728 26.0253 0.709421 26.2864 0.631996C26.5475 0.554572 26.8214 0.529557 27.0922 0.558389C27.363 0.587221 27.6255 0.66933 27.8645 0.8C28.1035 0.93067 28.3143 1.10732 28.4849 1.31981C28.673 1.53382 28.8149 1.78444 28.9017 2.05594C28.9885 2.32745 29.0183 2.61398 28.9892 2.89754C28.9601 3.18111 28.8727 3.45559 28.7326 3.70377C28.5924 3.95194 28.4025 4.16845 28.1748 4.3397L15.7738 14.3302C15.4039 14.6344 14.9401 14.8007 14.4613 14.8007C13.9826 14.8007 13.5187 14.6344 13.1489 14.3302L0.747803 3.98807C0.497679 3.78057 0.299957 3.51698 0.170677 3.2187C0.041399 2.92041 -0.0157948 2.59583 0.0037384 2.27128Z" fill="#4257A6"/>
+                                  </svg></button>
+                            </div>
                         </div>
+
                         <div>
-                            <h6>Vai Fonds Uzņēmēji Mieram ietur komisijas maksu no ziedojuma?</h6>
+                            <div class="questions-all-more"><button>
+                                <div>
+                                    <h6>Vai Fonds Uzņēmēji Mieram ietur komisijas maksu no ziedojuma?</h6>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="13" viewBox="0 0 29 15" fill="none">
+                                    <path d="M0.0037384 2.27128C0.00279427 1.78799 0.170984 1.31962 0.479111 0.94749C0.65262 0.738045 0.865717 0.564914 1.10619 0.438013C1.34666 0.311111 1.60978 0.232933 1.88049 0.207955C2.1512 0.182977 2.42417 0.21169 2.68377 0.292451C2.94338 0.373211 3.18451 0.50443 3.39336 0.678595L14.4717 9.94511L25.5706 1.00954C25.782 0.837728 26.0253 0.709421 26.2864 0.631996C26.5475 0.554572 26.8214 0.529557 27.0922 0.558389C27.363 0.587221 27.6255 0.66933 27.8645 0.8C28.1035 0.93067 28.3143 1.10732 28.4849 1.31981C28.673 1.53382 28.8149 1.78444 28.9017 2.05594C28.9885 2.32745 29.0183 2.61398 28.9892 2.89754C28.9601 3.18111 28.8727 3.45559 28.7326 3.70377C28.5924 3.95194 28.4025 4.16845 28.1748 4.3397L15.7738 14.3302C15.4039 14.6344 14.9401 14.8007 14.4613 14.8007C13.9826 14.8007 13.5187 14.6344 13.1489 14.3302L0.747803 3.98807C0.497679 3.78057 0.299957 3.51698 0.170677 3.2187C0.041399 2.92041 -0.0157948 2.59583 0.0037384 2.27128Z" fill="#4257A6"/>
+                                </svg></button>
+                            </div>
                         </div>
+
                         <div>
-                            <h6>Vai manas maksājuma kartes dati ir drošās rokās?</h6>
+                            <div class="questions-all-more"><button>
+                                <div>
+                                    <h6>Vai manas maksājuma kartes dati ir drošās rokās?</h6>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="13" viewBox="0 0 29 15" fill="none">
+                                    <path d="M0.0037384 2.27128C0.00279427 1.78799 0.170984 1.31962 0.479111 0.94749C0.65262 0.738045 0.865717 0.564914 1.10619 0.438013C1.34666 0.311111 1.60978 0.232933 1.88049 0.207955C2.1512 0.182977 2.42417 0.21169 2.68377 0.292451C2.94338 0.373211 3.18451 0.50443 3.39336 0.678595L14.4717 9.94511L25.5706 1.00954C25.782 0.837728 26.0253 0.709421 26.2864 0.631996C26.5475 0.554572 26.8214 0.529557 27.0922 0.558389C27.363 0.587221 27.6255 0.66933 27.8645 0.8C28.1035 0.93067 28.3143 1.10732 28.4849 1.31981C28.673 1.53382 28.8149 1.78444 28.9017 2.05594C28.9885 2.32745 29.0183 2.61398 28.9892 2.89754C28.9601 3.18111 28.8727 3.45559 28.7326 3.70377C28.5924 3.95194 28.4025 4.16845 28.1748 4.3397L15.7738 14.3302C15.4039 14.6344 14.9401 14.8007 14.4613 14.8007C13.9826 14.8007 13.5187 14.6344 13.1489 14.3302L0.747803 3.98807C0.497679 3.78057 0.299957 3.51698 0.170677 3.2187C0.041399 2.92041 -0.0157948 2.59583 0.0037384 2.27128Z" fill="#4257A6"/>
+                                </svg></button>
+                            </div>
                         </div>
+
                         <div>
-                            <h6>Vai gan privātpersona, gan juridiska persona var saņemt nodokļu atlaides?</h6>
+                            <div class="questions-all-more"><button>
+                                <div>
+                                    <h6>Vai gan privātpersona, gan juridiska persona var saņemt nodokļu atlaides?</h6>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="13" viewBox="0 0 29 15" fill="none">
+                                    <path d="M0.0037384 2.27128C0.00279427 1.78799 0.170984 1.31962 0.479111 0.94749C0.65262 0.738045 0.865717 0.564914 1.10619 0.438013C1.34666 0.311111 1.60978 0.232933 1.88049 0.207955C2.1512 0.182977 2.42417 0.21169 2.68377 0.292451C2.94338 0.373211 3.18451 0.50443 3.39336 0.678595L14.4717 9.94511L25.5706 1.00954C25.782 0.837728 26.0253 0.709421 26.2864 0.631996C26.5475 0.554572 26.8214 0.529557 27.0922 0.558389C27.363 0.587221 27.6255 0.66933 27.8645 0.8C28.1035 0.93067 28.3143 1.10732 28.4849 1.31981C28.673 1.53382 28.8149 1.78444 28.9017 2.05594C28.9885 2.32745 29.0183 2.61398 28.9892 2.89754C28.9601 3.18111 28.8727 3.45559 28.7326 3.70377C28.5924 3.95194 28.4025 4.16845 28.1748 4.3397L15.7738 14.3302C15.4039 14.6344 14.9401 14.8007 14.4613 14.8007C13.9826 14.8007 13.5187 14.6344 13.1489 14.3302L0.747803 3.98807C0.497679 3.78057 0.299957 3.51698 0.170677 3.2187C0.041399 2.92041 -0.0157948 2.59583 0.0037384 2.27128Z" fill="#4257A6"/>
+                                </svg></button>
+                            </div>
                         </div>
+
                         <div>
-                            <h6>Cik bieži tiek nogādāti ziedojumi?</h6>
+                            <div class="questions-all-more"><button>
+                                <div>
+                                    <h6>Cik bieži tiek nogādāti ziedojumi?</h6>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="13" viewBox="0 0 29 15" fill="none">
+                                    <path d="M0.0037384 2.27128C0.00279427 1.78799 0.170984 1.31962 0.479111 0.94749C0.65262 0.738045 0.865717 0.564914 1.10619 0.438013C1.34666 0.311111 1.60978 0.232933 1.88049 0.207955C2.1512 0.182977 2.42417 0.21169 2.68377 0.292451C2.94338 0.373211 3.18451 0.50443 3.39336 0.678595L14.4717 9.94511L25.5706 1.00954C25.782 0.837728 26.0253 0.709421 26.2864 0.631996C26.5475 0.554572 26.8214 0.529557 27.0922 0.558389C27.363 0.587221 27.6255 0.66933 27.8645 0.8C28.1035 0.93067 28.3143 1.10732 28.4849 1.31981C28.673 1.53382 28.8149 1.78444 28.9017 2.05594C28.9885 2.32745 29.0183 2.61398 28.9892 2.89754C28.9601 3.18111 28.8727 3.45559 28.7326 3.70377C28.5924 3.95194 28.4025 4.16845 28.1748 4.3397L15.7738 14.3302C15.4039 14.6344 14.9401 14.8007 14.4613 14.8007C13.9826 14.8007 13.5187 14.6344 13.1489 14.3302L0.747803 3.98807C0.497679 3.78057 0.299957 3.51698 0.170677 3.2187C0.041399 2.92041 -0.0157948 2.59583 0.0037384 2.27128Z" fill="#4257A6"/>
+                                </svg></button>
+                            </div>
                         </div>
+
                         <div>
-                            <h6>Vai saņemšu atskaiti, kad ziedojums tiks nogādāts?</h6>
+                            <div class="questions-all-more"><button>
+                                <div>
+                                    <h6>Vai saņemšu atskaiti, kad ziedojums tiks nogādāts?</h6>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="13" viewBox="0 0 29 15" fill="none">
+                                    <path d="M0.0037384 2.27128C0.00279427 1.78799 0.170984 1.31962 0.479111 0.94749C0.65262 0.738045 0.865717 0.564914 1.10619 0.438013C1.34666 0.311111 1.60978 0.232933 1.88049 0.207955C2.1512 0.182977 2.42417 0.21169 2.68377 0.292451C2.94338 0.373211 3.18451 0.50443 3.39336 0.678595L14.4717 9.94511L25.5706 1.00954C25.782 0.837728 26.0253 0.709421 26.2864 0.631996C26.5475 0.554572 26.8214 0.529557 27.0922 0.558389C27.363 0.587221 27.6255 0.66933 27.8645 0.8C28.1035 0.93067 28.3143 1.10732 28.4849 1.31981C28.673 1.53382 28.8149 1.78444 28.9017 2.05594C28.9885 2.32745 29.0183 2.61398 28.9892 2.89754C28.9601 3.18111 28.8727 3.45559 28.7326 3.70377C28.5924 3.95194 28.4025 4.16845 28.1748 4.3397L15.7738 14.3302C15.4039 14.6344 14.9401 14.8007 14.4613 14.8007C13.9826 14.8007 13.5187 14.6344 13.1489 14.3302L0.747803 3.98807C0.497679 3.78057 0.299957 3.51698 0.170677 3.2187C0.041399 2.92041 -0.0157948 2.59583 0.0037384 2.27128Z" fill="#4257A6"/>
+                                </svg></button>
+                            </div>
                         </div>
+
                     </div>
                 </div>
             </section>
