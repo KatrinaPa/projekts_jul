@@ -1,4 +1,4 @@
-main {
+body {
     background-color: #fff;
 }
 
@@ -8,19 +8,19 @@ main {
     align-items: center;
     justify-content: center;
     padding-right: 14rem;
+    height: 832px;
 }
 
 .left_text {
     display: flex;
     justify-content: center;
-    height: 832px;
     font-family: Roboto;
     color: #ffffff;
 }
 
 .text_quote {
     margin: auto;
-    padding-top: 10rem;
+    padding-top: 5rem;
 }
 
 .text_quote h2 {
@@ -53,7 +53,7 @@ main {
 }
 
 .login_form input {
-    height: 40px;
+    height: 37px;
     border: solid 1px #4257A6;
     border-radius: 10px;
     font-size: 14px;
@@ -70,13 +70,16 @@ main {
     color: #4257A6;
     font-size: 14px;
     font-weight: 400;
-    padding-left: 1rem;
+    position: absolute;
+    margin: -0.55rem 0 0 0.8rem;
+    background-color: #fff;
+    padding: 0 0.2rem;
 }
 
 .input-details {
     display: flex;
     flex-direction: column;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1.25rem;
 }
 
 .input-icon-visible {
@@ -87,10 +90,19 @@ main {
 
 .user-details input {
     background-repeat: no-repeat;
+    padding: 3px 0 0 0;
+}
+
+.input-details placeholder {
+    padding-top: 31px;
+}
+
+#name-onCard {
+    color: #1E1F24;
 }
 
 .button-signin {
-    margin-top: 2rem;
+    margin-top: 1rem;
     width: 100%;
     height: 43px;
     background-color: #4257A6;

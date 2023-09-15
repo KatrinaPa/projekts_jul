@@ -90,7 +90,7 @@ body {
     display: flex;
     font-size: 14px;
     font-weight: 500;
-    gap: 0.4rem; 
+    gap: 0.4rem;
 }
 
 .language a {
@@ -343,12 +343,7 @@ h1 {
     font-size: 100px;
     font-weight: 600;
     margin: 0;
-    text-shadow: -0.3rem 0.1rem #4257A6;
 }
-
-/*.doned-h h5 span {
-    text-shadow: none;
-}*/
 
 .doned-h h3 {
     font-family: Poppins;
@@ -544,6 +539,7 @@ h1 {
 .vairak_btn {
     padding: 0.2rem 0 0 0;
     border: 0;
+    background-color: transparent;
     cursor: pointer;
 }
 
@@ -568,6 +564,7 @@ h1 {
     margin-block-start: 0;
     margin-block-end: 0;
     padding: 0.6rem 0;
+    color: #1E1F24;
 }
 
 .questions-all p {
@@ -602,12 +599,8 @@ h1 {
 .questions-all-more:hover {
     border: 1px dashed #FFCC00;
     cursor: pointer;
-}
-
-.questions-all-more h6:hover {
     padding: 0.5rem 0.5rem;
 }
-
 
 .yellow-bottom {
     height: 0.25rem;
@@ -938,9 +931,9 @@ hr {
     }
 
     .support_logo {
-    top: 9rem;
-    left: 20.5rem;
-    gap: 1rem;
+        top: 9rem;
+        left: 20.5rem;
+        gap: 1rem;
     }
 
     .questions-all-more h6 {
@@ -1008,8 +1001,8 @@ hr {
     }
 
     .support_logo div {
-            width: 11rem;
-            height: 5rem;
+        width: 11rem;
+        height: 5rem;
     }
 
 }
@@ -1046,7 +1039,7 @@ hr {
     }
 
     .carousel_img-support_mob {
-        display: none; 
+        display: none;
     }
 }
 
@@ -1071,7 +1064,7 @@ hr {
     /*#logo-mob {
         width: 3.125rem;
     }*/
-    
+
     #logo-mob {
         display: none;
     }
@@ -1085,7 +1078,7 @@ hr {
     }
 
     .carousel_img-support_mob {
-        width: 100%; 
+        width: 100%;
         height: 100%;
         object-fit: cover;
     }
@@ -1163,7 +1156,7 @@ hr {
     }
 
     .section_support .section-content {
-    overflow: hidden;
+        overflow: hidden;
     }
 
     .section_support {
@@ -1251,7 +1244,6 @@ hr {
     .doned-h h5 {
         font-size: 50px;
         margin: 0.5rem 0;
-        text-shadow: -0.1rem 0.05rem #4257A6;
     }
 
     .doned-h h3 {
@@ -1335,35 +1327,40 @@ hr {
 
 @media screen and (max-width: 580px) {
 
-#support-from-mob {
-    width: 29rem;
-}
+    #support-from-mob {
+        width: 29rem;
+    }
 
-.human-support {
-    width: 8rem;
-    font-size: 10px;
-    line-height: 14px;
-    top: 0;
-}
+    .human-support {
+        width: 8rem;
+        font-size: 10px;
+        line-height: 14px;
+        top: 0;
+    }
 
-.medicin-support {
-    top: 6.5rem;
-    left: 21rem;
-}
+    .medicin-support {
+        top: 6.5rem;
+        left: 21rem;
+    }
 
-.transp-support {
-    top: 17rem;
-    font-size: 10px;
-    line-height: 14px;
+    .transp-support {
+        top: 17rem;
+        font-size: 10px;
+        line-height: 14px;
     }
 }
 
 @media screen and (max-width: 520px) {
 
+    #logo {
+        width: 46%;
+        height: auto;
+    }
+
     .donate {
         background: linear-gradient(113deg, #ffffff 52%, transparent 85%);
     }
-    
+
     .thMeter_raised {
         width: auto;
     }
@@ -1401,12 +1398,12 @@ hr {
     .human-support {
         width: 6rem;
     }
-    
+
     .medicin-support {
         top: 6rem;
-    left: 18rem;
+        left: 18rem;
     }
-    
+
     .transp-support {
         top: 16rem;
     }
@@ -1421,7 +1418,7 @@ hr {
         height: 3.2rem;
     }
 }
-    
+
 
 @media screen and (max-width: 484px) {
 
