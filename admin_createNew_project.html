@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Create New Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/admin-styles.css" />
+    <link rel="stylesheet" href="./assets/admin-styles-projects.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+</head>
+
+<body>
+
+    <main>
+        <header>
+            <img src="assets/images/UM_simbols.png" alt="uznemejiMieram" id="logo_t">
+            <div>
+                <img src="assets/images/power-off.png" alt="powerOff" id="poweroff">
+                <p>Log out</p>
+            </div>
+        </header>
+
+        <div class="panel-admin">
+            <section class="left_nav">
+                <p class="account">Uzņēmēji <br>Mieram</p>
+                <div class="nav-btn">
+                    <button>Home</button>
+                    <button>Create new project</button>
+                    <button>
+                        <p>Landing Page</p>
+                        <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6.5 8.33557L0.40625 2.27307C0.125 1.96057 0.125 1.49182 0.40625 1.21057L1.125 0.491821C1.40625 0.210571 1.875 0.210571 2.1875 0.491821L7 5.30432L11.8438 0.491821C12.1562 0.210571 12.625 0.210571 12.9062 0.491821L13.625 1.21057C13.9062 1.49182 13.9062 1.96057 13.625 2.27307L7.53125 8.33557C7.25 8.61682 6.78125 8.61682 6.5 8.33557Z"
+                                fill="#4257A6" />
+                        </svg>
+                    </button>
+                    <button>Partners</button>
+                    <button>Reports</button>
+                    <button>About us</button>
+                </div>
+            </section>
+
+            <section class="right_wrapper">
+                <div class="work-frame">
+                    <div class="frame-name">
+                        <h4>Create new project</h4>
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0.568306 0.568973C1.32593 -0.189658 2.55429 -0.189658 3.31192 0.568973L12.2449 9.51374L20.6881 1.05939C21.4457 0.300756 22.6741 0.300757 23.4317 1.05939C24.1893 1.81802 24.1893 3.048 23.4317 3.80663L14.9885 12.261L23.4318 20.7154C24.1894 21.4741 24.1894 22.704 23.4318 23.4627C22.6742 24.2213 21.4458 24.2213 20.6882 23.4627L12.2449 15.0082L3.31184 23.9531C2.55421 24.7117 1.32585 24.7117 0.568222 23.9531C-0.189407 23.1945 -0.189407 21.9645 0.568222 21.2058L9.50127 12.261L0.568306 3.31622C-0.189323 2.55759 -0.189323 1.3276 0.568306 0.568973Z"
+                                    fill="#FFFDFA" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="wrapper_table">
+                        <div class="admin_languages">
+                            <button id="latvian">Latvian</button>
+                            <button id="english">English</button>
+                            <button id="ukranian">Ukrainian</button>
+                        </div>
+                        <div class="table_projects">
+                            <div class="general_info">
+                                <div>
+                                    <h2>General information</h2>
+                                    <div class="status">
+                                        <p>Status</p>
+                                        <button>
+                                            <p>Being prepared</p>
+                                            <svg width="14" height="9" viewBox="0 0 14 9" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M6.5 8.33557L0.40625 2.27307C0.125 1.96057 0.125 1.49182 0.40625 1.21057L1.125 0.491821C1.40625 0.210571 1.875 0.210571 2.1875 0.491821L7 5.30432L11.8438 0.491821C12.1562 0.210571 12.625 0.210571 12.9062 0.491821L13.625 1.21057C13.9062 1.49182 13.9062 1.96057 13.625 2.27307L7.53125 8.33557C7.25 8.61682 6.78125 8.61682 6.5 8.33557Z"
+                                                    fill="#4257A6" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                                <input type="text" placeholder="Add project name" id="add-project-name" />
+                            </div>
+
+                            <div class="project_info">
+                                <div class="project_image-thermo">
+                                    <div>
+                                        <p>Image</p>
+                                        <div>
+                                            <img src="assets/images/admin_project_img.png" alt="add image">
+                                            <button>
+                                                <p>+ Add image</p>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h6>Thermometer information</h6>
+                                        <form action="#">
+                                            <div class="amount-thermo">
+                                                <label for="amount-need">Amount needed / Goal</label>
+                                                <input type="text" placeholder="xxx xxxx EUR" id="amount-need" />
+                                            </div>
+                                            <div class="amount-thermo">
+                                                <label for="amount-donated">Amount already donated</label>
+                                                <input type="text" placeholder="xxx xxxx EUR" id="amount-donated" />
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+
+                                <div class="project_description">
+                                    <div>
+                                        <h6>Project description</h6>
+                                        <div class="status">
+                                            <label for="amount-date">Date / Deadline</label>
+                                            <input type="text" placeholder="dd / mm / yy" id="amount-date" />
+                                        </div>
+                                    </div>
+                                    <input type="text" placeholder="Write small description" id="project-description" />
+                                    <div class="btn-preview-draft">
+                                        <button class="btn-preview">Preview</button>
+                                        <button class="btn-draft">Save as draft</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </div>
+        </section>
+        </div>
+    </main>
+
+
+</body>
+
+</html>

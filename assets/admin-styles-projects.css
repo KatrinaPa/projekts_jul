@@ -1,0 +1,222 @@
+.frame-name button svg {
+    width: 22px;
+}
+
+.admin_languages {
+    display: flex;
+    align-self: flex-end;
+    gap: 2px;
+    padding: 0 20px;
+    margin-top: 41px;
+}
+
+.admin_languages button {
+    width: 112px;
+    height: 40px;
+    background: #4257A6;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    border-style: none;
+    cursor: pointer;
+}
+
+#latvian {
+    border-radius: 8px 0 0 0;
+}
+
+#ukranian {
+    border-radius: 0px 8px 0px 0px;
+}
+
+.admin_languages button:hover {
+    background: #fff;
+    color: #4257A6;
+    font-weight: 700;
+}
+
+.table_projects {
+    margin: 0;
+}
+
+.general_info {
+    padding: 0 20px;
+    margin-top: 24px;
+
+}
+
+.general_info h2 {
+    color: #4257A6;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.status p {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+    color: #4257A6;
+}
+
+.general_info div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.status button {
+    border: 1px solid #F0F0F0;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 24px;
+    padding: 5px 11px;
+    gap: 59px;
+    cursor: pointer;
+}
+
+.general_info input {
+    width: 100%;
+    height: 39px;
+    font-family: Roboto;
+    color: #CFCFCF;
+    font-size: 20px;
+    font-weight: 400;
+    border: 1px solid #D3DBE6;
+    padding: 0;
+    margin: 8px 0 19px 0;
+}
+
+.project_info {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10%;
+}
+
+.project_image-thermo {
+    width: 30%;
+}
+
+.project_image-thermo img {
+    width: 100%;
+    height: 141px;
+    border: 1px solid #EFEFEF;
+}
+
+.project_image-thermo p,
+.amount-thermo label {
+    color: #4257A6;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 4px;
+    margin: 0;
+}
+
+.project_image-thermo button {
+    border-radius: 12px;
+    border: 1px solid #4257A6;
+    width: 114px;
+    padding: 8px 0 4px 0;
+    background-color: transparent;
+    position: relative;
+    top: -6rem;
+    left: 6rem;
+    margin: 0;
+}
+
+.project_image-thermo h6,
+.project_description h6 {
+    color: #4257A6;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0 10px 0;
+}
+
+.project_description h6 {
+    margin: 0;
+}
+
+.amount-thermo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.amount-thermo input {
+    border: 1px solid #A0ADBD;
+    height: 34px;
+    padding-left: 8px;
+}
+
+.project_description {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    gap: 1rem;
+    width: 60%;
+}
+
+.project_description div:first-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+#project-description {
+    min-height: 332px;
+    font-family: Roboto;
+    color: #CFCFCF;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: left;
+    border: 1px solid #D3DBE6;
+    padding: 0;
+}
+
+.status label {
+    color: #4257A6;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 4px;
+    margin: 0;
+}
+
+.status input {
+    border: 1px solid #F0F0F0;
+    height: 24px;
+    width: 181px;
+    padding: 0 0 0 15px;
+}
+
+.btn-preview,
+.btn-draft {
+    border-radius: 10px;
+    background: #4257A6;
+    height: 45px;
+    width: 100%;
+    padding: 0;
+    border-style: none;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-draft {
+    border: 1px solid #4257A6;
+    background: #fff;
+    color: #4257A6;
+}
+
+.btn-preview-draft {
+    display: flex;
+    gap: 17px;
+}
