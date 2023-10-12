@@ -1,97 +1,165 @@
+:root {
+    --font-family-paragraph: "Roboto", sans-serif;
+    --font-family-heading: "Poppins", sans-serif;
+}
+
+:root {
+    --color-background-white: #FFFFFF;
+    --color-background-grey: #F0F0F0;
+    --color-background-heading: #022B30;
+    --color-text-heading: #022B30;
+    --color-text-white: #FFFFFF;
+    --color-text-main: #1E1F24;
+    --color-text-important: #E17C41;
+    --color-text-status-active: #1A7B1E;
+    --color-text-status-draft: #FF0000;
+    --color-background-navigation-language: #5F9BAB;
+    --color-background-buttons: #E17C41;
+    --color-border-grey: #D3DBE6;
+}
+
 .frame-name button svg {
     width: 22px;
 }
 
 .admin_languages {
     display: flex;
-    align-self: flex-end;
+    justify-content: flex-end;
     gap: 2px;
-    padding: 0 20px;
     margin-top: 41px;
+    width: 96%;
 }
 
 .admin_languages button {
+    padding: 0 20px;
+}
+
+.admin_languages button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 112px;
     height: 40px;
-    background: #4257A6;
-    color: #fff;
-    font-family: Roboto;
+    background: var(--color-background-navigation-language);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2), 0px 4px 8px rgba(0, 0, 0, 0.1);
+    color: var(--color-text-white);
+    font-family: var(--font-family-paragraph);
     font-size: 22px;
-    font-weight: 400;
+    font-weight: 300;
     border-style: none;
     cursor: pointer;
 }
 
-#latvian {
+.admin_languages button:first-child {
     border-radius: 8px 0 0 0;
+    background: var(--color-background-white);
+    color: var(--color-text-main);
+    font-weight: 700;
 }
 
-#ukranian {
+.ukranian {
     border-radius: 0px 8px 0px 0px;
 }
 
 .admin_languages button:hover {
-    background: #fff;
-    color: #4257A6;
+    background: var(--color-background-white);
+    color: var(--color-text-heading);
     font-weight: 700;
 }
 
 .table_projects {
-    margin: 0;
+    margin: 0 0 32px 0;
 }
 
-.general_info {
+.general_info-name_status {
     padding: 0 20px;
     margin-top: 24px;
 
 }
 
-.general_info h2 {
-    color: #4257A6;
+.general_info-name_status h2 {
+    color: var(--color-text-heading);
     font-size: 26px;
     font-weight: 700;
     margin: 0;
 }
 
-.status p {
-    font-size: 15px;
-    font-weight: 400;
-    margin: 0;
-    color: #4257A6;
-}
-
-.general_info div {
+.general_project-status {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 0.5rem;
 }
 
-.status button {
-    border: 1px solid #F0F0F0;
+.status-draft {
+    color: var(--color-text-status-draft);
+    font-family: var(--font-family-paragraph);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.status-active {
+    color: var(--color-text-status-active);
+    font-family: var(--font-family-paragraph);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.general_info-name_status div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.general_project-status button {
+    border: 1px solid var(--color-border-grey);
     background-color: transparent;
     display: flex;
     align-items: center;
-    width: 200px;
+    justify-content: space-between;
+    width: 206px;
     height: 24px;
-    padding: 5px 11px;
-    gap: 59px;
+    padding: 5px 0;
+    padding-right: 3px;
+    text-indent: 11px;
     cursor: pointer;
 }
 
-.general_info input {
+.general_info-name_status input {
     width: 100%;
-    height: 39px;
-    font-family: Roboto;
-    color: #CFCFCF;
+    height: auto;
+    font-family: var(--font-family-paragraph);
+    color: var(--color-background-grey);
     font-size: 20px;
     font-weight: 400;
-    border: 1px solid #D3DBE6;
-    padding: 0;
-    margin: 8px 0 19px 0;
+    border: 1px solid var(--color-border-grey);
+    margin-bottom: 19px;
+    padding: 8px 0;
+    text-indent: 11px;
 }
 
-.project_info {
+.general_project-status label {
+    color: var(--color-text-main);
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.general_project-status input {
+    border: 1px solid var(--color-border-grey);
+    height: 24px;
+    width: 200px;
+    text-indent: 11px;
+}
+
+.add-project-name_edit input {
+    color: var(--color-text-main);
+    font-family: var(--font-family-heading);
+    font-size: 37px;
+    font-weight: 600;
+}
+
+.project_info-img_thermo_descript {
     padding: 0 20px;
     display: flex;
     flex-direction: row;
@@ -101,17 +169,23 @@
 
 .project_image-thermo {
     width: 30%;
+    min-width: 282px;
 }
 
-.project_image-thermo img {
+.project_info-img {
+    object-fit: cover;
     width: 100%;
-    height: 141px;
-    border: 1px solid #EFEFEF;
+    height: auto;
+    border: 1px solid var(--color-border-grey);
+}
+
+.project_image-thermo img:not(:first-child) {
+    width: 9px
 }
 
 .project_image-thermo p,
 .amount-thermo label {
-    color: #4257A6;
+    color: var(--color-text-main);
     font-size: 15px;
     font-weight: 400;
     padding-bottom: 4px;
@@ -120,27 +194,61 @@
 
 .project_image-thermo button {
     border-radius: 12px;
-    border: 1px solid #4257A6;
+    border: 1px solid var(--color-background-buttons);
     width: 114px;
     padding: 8px 0 4px 0;
     background-color: transparent;
     position: relative;
     top: -6rem;
-    left: 6rem;
-    margin: 0;
+    left: 5.4rem;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
 }
 
-.project_image-thermo h6,
+.project_image-thermo button p {
+    font-size: 14px;
+    color: var(--color-text-important);
+}
+
+.thermometer-edit h6,
+.thermometer-create h6,
 .project_description h6 {
-    color: #4257A6;
+    color: var(--color-text-main);
     font-size: 18px;
     font-weight: 600;
-    margin: 10px 0 10px 0;
+    margin: 26px 0 10px 0;
 }
 
-.project_description h6 {
-    margin: 0;
+.thermometer-edit h6 {
+    margin: 50px 0 10px 0;
 }
+
+/*.choose_file {
+    position: unset;
+    border-radius: 5px;
+    border: 0.5px solid rgba(68, 92, 124, 0.10);
+    background: rgba(68, 92, 124, 0.10);
+    padding: 0 4px;
+    width: auto;
+}
+
+.choose_file p {
+    color: rgba(68, 92, 124, 0.60);
+    font-size: 15px;
+    padding: 0;
+}
+
+.choose_file {
+    border: 1px solid #F0F0F0;
+    padding: 3px 5px;
+}*/
+
+
+
+
+
 
 .amount-thermo {
     display: flex;
@@ -149,17 +257,23 @@
 }
 
 .amount-thermo input {
-    border: 1px solid #A0ADBD;
+    border: 1px solid var(--color-border-grey);
     height: 34px;
-    padding-left: 8px;
+    width: 278px;
+    text-indent: 8px;
+}
+
+
+
+.project_description h6 {
+    margin: 0;
 }
 
 .project_description {
     display: flex;
     flex-direction: column;
     margin: 0;
-    gap: 1rem;
-    width: 60%;
+    width: 100%;
 }
 
 .project_description div:first-child {
@@ -169,54 +283,89 @@
     gap: 1rem;
 }
 
-#project-description {
-    min-height: 332px;
-    font-family: Roboto;
-    color: #CFCFCF;
+.wrapper_create-small_description,
+.wrapper_edit-small_description {
+    min-height: 345px;
+    border: 1px solid var(--color-border-grey);
+    margin-top: 18px;
+}
+
+.wrapper_edit-small_description {
+    min-height: 445px;
+}
+
+.create-small_description {
+    border: none;
+    font-family: var(--font-family-paragraph);
+    color: var(--color-background-grey);
     font-size: 22px;
     font-weight: 400;
-    text-align: left;
-    border: 1px solid #D3DBE6;
-    padding: 0;
+    padding: 8px 11px;
 }
 
-.status label {
-    color: #4257A6;
-    font-size: 15px;
+.wrapper_edit-small_description p {
+    font-size: 16px;
+    line-height: 32px;
+    font-family: var(--font-family-paragraph);
+    color: var(--color-text-main);
     font-weight: 400;
-    padding-bottom: 4px;
-    margin: 0;
+    padding: 8px 11px;
+
 }
 
-.status input {
-    border: 1px solid #F0F0F0;
-    height: 24px;
-    width: 181px;
-    padding: 0 0 0 15px;
+.table_accept-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 20px;
+    margin: 32px 0 40px 0;
 }
 
+.delete-trash {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.delete-trash p {
+    margin:0;
+}
+
+.save-changes,
+.btn-draft,
+.btn-publish,
 .btn-preview,
-.btn-draft {
+.btn-confirm {
     border-radius: 10px;
-    background: #4257A6;
-    height: 45px;
-    width: 100%;
+    background: var(--color-text-important);
+    height: 37px;
+    width: 161px;
     padding: 0;
     border-style: none;
-    color: #fff;
-    font-family: Roboto;
-    font-size: 24px;
+    color: var(--color-text-white);
+    font-family: var(--font-family-paragraph);
+    font-size: 18px;
     font-weight: 600;
     cursor: pointer;
 }
 
 .btn-draft {
-    border: 1px solid #4257A6;
-    background: #fff;
-    color: #4257A6;
+    border: 1px solid var(--color-background-buttons);
+    background: var(--color-background-white);
+    color: var(--color-text-important);
 }
 
 .btn-preview-draft {
     display: flex;
+    justify-content: flex-end;
     gap: 17px;
+}
+
+
+@media screen and (max-width: 1070px) {
+    .project_image-thermo {
+        width: 40%;
+    }
 }

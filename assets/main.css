@@ -169,9 +169,7 @@ h1 {
 .carousel_img-support {
     width: 100%;
     max-width: 80rem;
-    height: 100%;
     object-fit: cover;
-    position: relative;
 }
 
 .carousel_track {
@@ -182,14 +180,12 @@ h1 {
 
 .carousel_slide {
     display: flex;
-    position: absolute;
-    top: 0;
-    bottom: 0;
+    height: 562px;
     width: 100%;
 }
 
 .donate {
-    height: 33.5rem;
+    height: 562px;
     width: 43rem;
     margin: 0;
     background: linear-gradient(113deg, #ffffff 44%, transparent 76%);
@@ -552,54 +548,69 @@ h1 {
     padding: 0.01rem 0;
 }
 
-.questions-all {
-    margin-top: 1rem;
+.accordion_wrapper {
+    margin-top: 53px;
 }
 
-.questions-all-more h6 {
+.accordion-item-question {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 16px;
+}
+
+/*.accordion-item-question::after {
+    content: "\002B";
+    /*look for CSS Entities
+    font-size: 2rem;
+    font-weight: 700;
+    position: absolute;
+    right: 0;
+}*/
+
+/*.accordion-item-question.active::after {
+    content: "\2212";
+    /*look for CSS Entities
+}*/
+
+.accordion-item-question.active span {
+    transform: rotate(180deg);
+    right: 0.5rem;
+}
+
+.accordion-item-question h6 {
     font-family: Roboto;
     font-size: 25px;
     font-weight: 400;
-    text-align: left;
     margin-block-start: 0;
     margin-block-end: 0;
     padding: 0.6rem 0;
     color: #1E1F24;
 }
 
-.questions-all p {
+.accordion-item-answer p {
     font-family: Roboto;
     font-size: 22px;
     font-weight: 400;
     line-height: 30px;
-    padding: 0 1.5rem;
-    margin: 1.5rem 0 2rem 0;
+    padding: 16px 0 32px 16px;
+    margin: 24px 0 0 0;
 }
 
-.questions-all-more div {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 1rem;
+.accordion-item-answer {
+    display: none;
 }
 
-.questions-all-more a {
-    text-decoration: none;
-    color: #1E1F24;
+.accordion-item-question.active+.accordion-item-answer {
+    display: block;
 }
 
-.questions-all-more button {
-    border-style: none;
-    background-color: transparent;
-    padding-block: 0;
-    padding-inline: 0;
-    cursor: pointer;
-}
-
-.questions-all-more:hover {
+.accordion-item-question:hover,
+.accordion-item-question.active {
     border: 1px dashed #FFCC00;
+    padding: 0 0.5rem;
     cursor: pointer;
-    padding: 0.5rem 0.5rem;
 }
 
 .yellow-bottom {
@@ -682,7 +693,7 @@ hr {
     }
 
     .section_carousel {
-        height: 33.5rem;
+        height: 562px;
         padding: 0 5.75rem;
     }
 
@@ -728,10 +739,6 @@ hr {
 
     #logo {
         margin: 0;
-    }
-
-    .carousel {
-        height: 33.5rem;
     }
 
     .support-span {
@@ -936,20 +943,14 @@ hr {
         gap: 1rem;
     }
 
-    .questions-all-more h6 {
+    .accordion-item-question h6 {
         font-size: 22px;
     }
 
-    .questions-all p {
+    .accordion-item-answer p {
         font-size: 16px;
         line-height: 22px;
     }
-
-    .questions-all-more svg {
-        width: 3rem;
-    }
-
-
 }
 
 @media screen and (max-width: 969px) {
@@ -1005,6 +1006,15 @@ hr {
         height: 5rem;
     }
 
+    .accordion-item-question h6 {
+        width: 90%;
+    }
+
+    .accordion-item-question span {
+        position: absolute;
+        right: 0;
+        padding-right: 0.5rem;
+    }
 }
 
 @media screen and (max-width: 797px) {
@@ -1070,7 +1080,11 @@ hr {
     }
 
     .carousel {
-        height: 32.5rem;
+        height: 546px;
+    }
+
+    .carousel_slide {
+        height: 546px;
     }
 
     .carousel_img-support {
@@ -1085,7 +1099,6 @@ hr {
 
     .donate {
         width: auto;
-        height: 100%;
         right: 0;
         left: 0;
         background: linear-gradient(113deg, #ffffff 50%, transparent 82%);
@@ -1290,15 +1303,6 @@ hr {
 
     .questions-all {
         padding-left: 0;
-    }
-
-    .questions-all-more div {
-        display: grid;
-        grid-template-columns: repeat(16, 1fr);
-    }
-
-    .questions-all-more h6 {
-        grid-column: span 15;
     }
 
     .btn_ziedot-proj {
